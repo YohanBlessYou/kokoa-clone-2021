@@ -1,0 +1,16 @@
+
+.welcome-header{
+    text-align: center;
+    font-weight: bold;
+}
+.welcome-header__title{
+   margin-top:10vh;
+   font-size:3vh;
+}
+.welcome-header__paraph{
+    margin-top:5vh;
+    margin-bottom:10vh;
+    font-size:2vh;
+    white-space:pre-line;
+    opacity: 0.7;
+}

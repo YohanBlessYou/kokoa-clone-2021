@@ -1,0 +1,41 @@
+.friends-list__warning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.02);
+    height: 5vh;
+    margin:1vh 0;
+    font-size:2vh;
+    font-weight: bold;
+    text-decoration: none;
+}
+.friends-list__warning span{
+    margin:0 0.5vh;
+    color:rgba(0,0,0,0.6);
+}
+.friends-list__warning i{
+    margin:0 0.5vh;
+    color:rgba(0,0,0,0.1);
+}
+
+.friends-list__channel-bar{
+    display: flex;
+    margin:2vh 2vh;
+    border-top: 0.1vh solid rgba(90, 61, 61, 0.1);
+    padding:1.5vh 0 ;
+    font-weight:bold;
+    font-size:2vh;
+    color:rgba(0,0,0,0.4);
+}
+.friends-list__channel-bar > *{
+    display: flex;
+    width: 50%;
+}
+.friends-list__channel-bar__left{
+    justify-content: flex-start;
+}
+.friends-list__channel-bar__right{
+    justify-content: flex-end;
+}
+
+

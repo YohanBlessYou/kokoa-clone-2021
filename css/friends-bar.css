@@ -1,0 +1,29 @@
+.friends-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.friends-bar__setting{
+    display: flex;
+    justify-content: center;
+    height:8vh;
+}
+.friends-bar__setting > *{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.friends-bar__setting__left-bar{
+    justify-content: flex-start;
+    font-size:3.5vh;
+    font-weight: bold;
+    margin-left:2vh;
+}
+.friends-bar__setting__right-bar{
+    justify-content: flex-end;
+}
+.friends-bar__setting__right-bar > *{
+    margin-right:3vh;
+}
+

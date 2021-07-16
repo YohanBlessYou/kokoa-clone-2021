@@ -1,0 +1,62 @@
+
+.navi{
+    position:fixed;
+    bottom: 0;
+    width:100%;
+}
+.navi__ul{
+    display: flex;
+    height: 8vh;
+    list-style: none;
+    background-color: rgba(0,0,0,0.03);
+    border-top: 1px solid rgba(0,0,0,0.1);
+    
+}
+.navi__li{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.navi__anchor{
+    font-size:1.5vh;
+    color:rgba(0,0,0,0.7);
+}
+
+.navi__count-balloon{
+    background-color: tomato;
+    border-radius: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5vh;
+    height: 2.5vh;
+
+    color:white;
+    font-size:1.5vh;
+    font-weight: bold;
+}
+.navi__fix-position{
+    position:absolute;
+    top:1.5vh;
+    right:3vh;
+}
+
+.navi__dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position:absolute;
+    top:2.2vh;
+    right:3.7vh;
+    
+    background-color:tomato;
+    width:0.6vh;
+    height: 0.6vh;
+    border-radius: 5vh;
+
+}

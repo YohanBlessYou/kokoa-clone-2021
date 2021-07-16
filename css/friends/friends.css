@@ -1,0 +1,14 @@
+
+@import "../variables.css";
+@import "../status-bar.css";
+@import "../reset.css";
+@import "../friends-bar.css";
+@import "../user-component.css";
+@import "../navi-bar.css";
+
+@import "friends-list.css";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
